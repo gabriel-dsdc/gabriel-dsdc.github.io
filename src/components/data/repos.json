@@ -1,0 +1,72 @@
+[
+  {
+    "id": 588370837,
+    "type": "Front-end",
+    "techs": ["react", "testingLibrary", "jest"],
+    "previewImg": "images/previews/recipes-app.png",
+    "previewUrl": "https://recipes-app-gabriel-dsdc.vercel.app/"
+  },
+  {
+    "id": 588069729,
+    "type": "Front-end",
+    "techs": ["react", "testingLibrary", "jest"],
+    "previewImg": "images/previews/starwars-planet-search.png",
+    "previewUrl": "https://starwars-planets-search-gabriel-dsdc.vercel.app/"
+  },
+  {
+    "id": 588340383,
+    "type": "Front-end",
+    "techs": ["react", "testingLibrary", "jest", "redux"],
+    "previewImg": "images/previews/trivia.png",
+    "previewUrl": "https://trivia-gabriel-dsdc.vercel.app/"
+  },
+  {
+    "id": 566700924,
+    "type": "Front-end",
+    "techs": ["react", "redux"],
+    "previewImg": "images/previews/wallet.gif",
+    "previewUrl": "https://wallet-gabriel-dsdc.vercel.app/"
+  },
+  {
+    "id": 566650044,
+    "type": "Front-end",
+    "techs": ["react"],
+    "previewImg": "images/previews/frontend-online-store.png",
+    "previewUrl": "https://frontend-online-store-gabriel-dsdc.vercel.app/"
+  },
+  {
+    "id": 566114126,
+    "type": "Front-end",
+    "techs": ["react"],
+    "previewImg": "images/previews/tune-store.gif",
+    "previewUrl": "https://tunestore-gabriel-dsdc.vercel.app/"
+  },
+  {
+    "id": 564350648,
+    "type": "Front-end",
+    "techs": ["react"],
+    "previewImg": "images/previews/top-trumps-card-game.png",
+    "previewUrl": "https://top-trumps-card-game.vercel.app/"
+  },
+  {
+    "id": 562909219,
+    "type": "Front-end",
+    "techs": ["javascript", "jest"],
+    "previewImg": "images/previews/shopping-cart.gif",
+    "previewUrl": "https://gabriel-dsdc.github.io/shopping-cart/"
+  },
+  {
+    "id": 562882404,
+    "type": "Front-end",
+    "techs": ["html", "javascript"],
+    "previewImg": "images/previews/todo-list.gif",
+    "previewUrl": "https://gabriel-dsdc.github.io/todo-list"
+  },
+  {
+    "id": 562789413,
+    "type": "Front-end",
+    "techs": ["html", "javascript"],
+    "previewImg": "images/previews/pixels-art.gif",
+    "previewUrl": "https://gabriel-dsdc.github.io/pixels-art/"
+  }
+]

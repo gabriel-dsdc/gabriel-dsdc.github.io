@@ -1,0 +1,34 @@
+{
+  "en": {
+      "home": "Home",
+      "dark": "Dark",
+      "light": "Light",
+      "projects": "Projects",
+      "aboutMe": "Developer, technology enthusiast and passionate about logic. I like to learn, share and contribute. The desire and curiosity to create and/or improve things led me to programming and I discovered that I love to develop both in the backend and in the frontend.",
+      "skills": "Skills",
+      "loading": "Loading",
+      "selectType": "Select type",
+      "selectStack": "Select stack",
+      "open": "Open",
+      "madeWith": "Made with React + Tailwind",
+      "compiledBy": "Content compiled by",
+      "since": "since",
+      "lastUpdated": "Last updated"
+  },
+  "pt-BR": {
+      "home": "Início",
+      "dark": "Escuro",
+      "light": "Claro",
+      "projects": "Projetos",
+      "aboutMe": "Desenvolvedor, entusiasta pela área de tecnologia e apaixonado por lógica. Gosto de aprender, compartilhar e contribuir. A vontade e curiosidade de criar e/ou melhorar as coisas me levaram à programação e descobrir que eu adoro desenvolver tanto no back-end quanto no front-end.",
+      "skills": "Competências",
+      "loading": "Carregando",
+      "selectType": "Selecionar tipo",
+      "selectStack": "Selecionar stack",
+      "open": "Abrir",
+      "madeWith": "Feito com React + Tailwind",
+      "compiledBy": "Conteúdo compilado por",
+      "since": "desde",
+      "lastUpdated": "Última atualização"
+  }
+}

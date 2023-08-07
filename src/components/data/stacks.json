@@ -1,0 +1,62 @@
+{
+  "typescript": {
+    "name": "TypeScript", "icon": "typescript.svg"
+  },
+  "react": {
+    "name": "React", "icon": "react.svg"
+  },
+  "nodejs": {
+    "name": "Node.js", "icon": "nodejs.svg"
+  },
+  "express": {
+    "name": "Express", "icon": "express.svg"
+  },
+  "docker": {
+    "name": "Docker", "icon": "docker.svg"
+  },
+  "jest": {
+    "name": "Jest", "icon": "jest.svg"
+  },
+  "chai": {
+    "name": "Chai", "icon": "chai.svg"
+  },
+  "sinon": {
+    "name": "Sinon.JS", "icon": "sinonjs.svg"
+  },
+  "sequelize": {
+    "name": "Sequelize", "icon": "sequelize.svg"
+  },
+  "mongoose": {
+    "name": "Mongoose", "icon": "mongoose.svg"
+  },
+  "mysql": {
+    "name": "MySQL", "icon": "mysql.svg"
+  },
+  "mongodb": {
+    "name": "MongoDB", "icon": "mongodb.svg"
+  },
+  "jwt": {
+    "name": "JSON Web Token", "icon": "jsonwebtoken.svg"
+  },
+  "testingLibrary": {
+    "name": "Testing Library", "icon": "testingLibrary.svg"
+  },
+  "mocha": {
+    "name": "Mocha", "icon": "mocha.svg"
+  },
+  "redux": {
+    "name": "Redux", "icon": "redux.svg"
+  },
+  "html": {
+    "name": "HTML", "icon": "html.svg", "hidden": true
+  },
+  "javascript": {
+    "name": "JavaScript", "icon": "javascript.svg"
+  },
+  "tailwind": {
+    "name": "Tailwind", "icon": "tailwind.svg", "hidden": true
+  },
+  "markdown": {
+    "name": "Markdown", "icon": "markdown.svg", "hidden": true
+  }
+}

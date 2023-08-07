@@ -1,17 +1,24 @@
 {
   "name": "portfolio",
+  "homepage": "https://gabriel-dsdc.github.io",
   "version": "0.1.0",
-  "private": true,
+  "engines": {
+    "node": "16"
+  },
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,7 +28,31 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "eol-last": "warn",
+      "no-multiple-empty-lines": "warn",
+      "indent": [
+        "warn",
+        2
+      ],
+      "sort-imports": [
+        "warn"
+      ],
+      "object-curly-spacing": [
+        "warn",
+        "always"
+      ]
+    }
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "plugins": [
+      "stylelint-order"
+    ],
+    "rules": {
+      "order/properties-alphabetical-order": true
+    }
   },
   "browserslist": {
     "production": [
@@ -34,5 +65,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.14",
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-order": "^5.0.0",
+    "tailwindcss": "^3.1.7"
   }
 }
