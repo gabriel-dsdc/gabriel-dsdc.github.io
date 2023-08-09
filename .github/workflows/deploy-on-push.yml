@@ -30,6 +30,7 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: "main"
+          JAVASCRIPT_DEFAULT_STYLE: prettier
 
       - name: Test Code
         run: npm run test --coverage
