@@ -1,13 +1,11 @@
-import TranslatedText from '../i18n/TranslatedText';
-import stacks from './data/stacks.json';
+import TranslatedText from "../i18n/TranslatedText";
+import stacks from "./data/stacks.json";
 
 function ProjectCard({
   title,
   description,
   url,
   repoExtra: { techs, previewImg, previewUrl },
-  setPreviewInfo,
-  setShowPreview,
 }) {
   return (
     // <div className="max-w-sm w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 my-1 mx-1 bg-white shadow-xl rounded-lg overflow-hidden">
@@ -67,9 +65,7 @@ function ProjectCard({
               iframe
             </button> */}
           </div>
-          <p className="overflow-hidden">
-            {description || "\u00A0"}
-          </p>
+          <p className="overflow-hidden">{description || "\u00A0"}</p>
         </div>
 
         <div className="bg-zinc-200 dark:bg-neutral-700 border-t border-gray-300 p-4">
@@ -78,7 +74,9 @@ function ProjectCard({
           </h2>
           <div className="flex flex-wrap justify-around max-h-[68px] h-[68px] overflow-y-auto">
             {techs.map((techName) => {
-              const [, { name, icon }] = Object.entries(stacks).find((entry) => entry[0].toLowerCase() === techName.toLowerCase());
+              const [, { name, icon }] = Object.entries(stacks).find(
+                (entry) => entry[0].toLowerCase() === techName.toLowerCase()
+              );
               return (
                 <div key={name} className="flex flex-col items-center">
                   <img
@@ -89,7 +87,8 @@ function ProjectCard({
                   />
                   <p>{name}</p>
                 </div>
-              )})}
+              );
+            })}
           </div>
         </div>
       </div>

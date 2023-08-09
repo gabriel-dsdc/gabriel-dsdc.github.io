@@ -44,7 +44,7 @@ function App() {
     <>
       <Header languageToggle={ languageToggle } currentLang={ currentLanguage } />
       <Main repos={repos} isFetching={isFetching} />
-      <Footer githubUsername={repos[0].name} githubLink={repos[0].homepage} />
+      <Footer githubUsername={repos[0].owner.login} githubLink={repos[0].owner.html_url} />
     </>
   )
 }
