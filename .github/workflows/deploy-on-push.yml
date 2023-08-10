@@ -23,7 +23,7 @@ jobs:
           node-version-file: package.json
 
       - name: Install Dependencies
-        run: npm ci --production
+        run: npm ci
 
       - name: Lint Code Base
         uses: super-linter/super-linter@main
