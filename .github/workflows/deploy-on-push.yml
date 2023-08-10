@@ -9,7 +9,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   deploy:
-    name: Lint and Test
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -39,6 +39,6 @@ jobs:
       - name: Build and Deploy with gh-pages
         if: github.ref == 'refs/heads/main'
         run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/\
-          ${GITHUB_REPOSITORY}.git
+          git remote set-url origin "https://git:${GITHUB_TOKEN}@github.com/\
+          ${GITHUB_REPOSITORY}.git"
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
