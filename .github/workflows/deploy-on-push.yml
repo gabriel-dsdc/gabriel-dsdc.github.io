@@ -8,7 +8,7 @@ on:
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
-  lint-and-test:
+  deploy:
     name: Lint and Test
     runs-on: ubuntu-latest
     steps:
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@main
         with:
-          node-version-file: "package.json"
+          node-version-file: package.json
 
       - name: Install Dependencies
         run: npm ci --production
@@ -29,22 +29,16 @@ jobs:
         uses: super-linter/super-linter@main
         env:
           VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: "main"
+          DEFAULT_BRANCH: main
           JAVASCRIPT_DEFAULT_STYLE: prettier
           VALIDATE_JAVASCRIPT_STANDARD: false
 
       - name: Test Code
         run: npm run test --coverage
 
-  deploy:
-    name: Build and Deploy
-    runs-on: ubuntu-latest
-    needs: lint-and-test
-    if: github.ref == 'refs/heads/main'
-    steps:
       - name: Build and Deploy with gh-pages
+        if: github.ref == 'refs/heads/main'
         run: |
-          git remote set-url origin "${GIT_URL}"
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/\
+          ${GITHUB_REPOSITORY}.git
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
-        env:
-          GIT_URL: https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
