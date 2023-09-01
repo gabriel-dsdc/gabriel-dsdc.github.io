@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c8dbf8d.css",
-    "main.js": "/static/js/main.0edc6b00.js",
+    "main.css": "/static/css/main.b1dd0c8d.css",
+    "main.js": "/static/js/main.3d6fa304.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/tune-store.gif": "/static/media/tune-store.37c18e9740f4df10c400.gif",
     "static/media/pixels-art.gif": "/static/media/pixels-art.4cf9ba8650fd7f8c26fa.gif",
@@ -10,11 +10,14 @@
     "static/media/shopping-cart.gif": "/static/media/shopping-cart.499b4ca1f6bd27726e02.gif",
     "static/media/todo-list.gif": "/static/media/todo-list.b864570586cc6594a411.gif",
     "static/media/starwars-planet-search.png": "/static/media/starwars-planet-search.17ce7fcd7c2f753b4c58.png",
+    "static/media/talker-manager.jpg": "/static/media/talker-manager.53004b2d6d96bc6040dd.jpg",
     "static/media/frontend-online-store.png": "/static/media/frontend-online-store.3920778e34aeb110bf0a.png",
     "static/media/trivia.png": "/static/media/trivia.e01a78dd0262d0303d62.png",
     "static/media/top-trumps-card-game.png": "/static/media/top-trumps-card-game.96530002308f2d9bb20a.png",
     "static/media/sinonjs.svg": "/static/media/sinonjs.5ac2ea41f8eb5173d15d.svg",
+    "static/media/flask.svg": "/static/media/flask.8817ddc16e4a53f4835a.svg",
     "static/media/mysql.svg": "/static/media/mysql.491c0bae8a4c590e66ba.svg",
+    "static/media/python.svg": "/static/media/python.08eed603c60ccb5aab49.svg",
     "static/media/testingLibrary.svg": "/static/media/testingLibrary.be20401c1aaaa2acbc45.svg",
     "static/media/react.svg": "/static/media/react.1495a6a0c751ac52af31.svg",
     "static/media/jest.svg": "/static/media/jest.5e94da4191c73214d5c5.svg",
@@ -36,12 +39,12 @@
     "static/media/tailwind.svg": "/static/media/tailwind.d09fc953e7affe05a4e0.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.4a790e2582289412e0a4.svg",
     "static/media/markdown.svg": "/static/media/markdown.e3e7c7a95b6b4aa985c2.svg",
-    "main.4c8dbf8d.css.map": "/static/css/main.4c8dbf8d.css.map",
-    "main.0edc6b00.js.map": "/static/js/main.0edc6b00.js.map",
+    "main.b1dd0c8d.css.map": "/static/css/main.b1dd0c8d.css.map",
+    "main.3d6fa304.js.map": "/static/js/main.3d6fa304.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c8dbf8d.css",
-    "static/js/main.0edc6b00.js"
+    "static/css/main.b1dd0c8d.css",
+    "static/js/main.3d6fa304.js"
   ]
 }
