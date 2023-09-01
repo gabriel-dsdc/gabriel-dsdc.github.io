@@ -1,62 +1,108 @@
 {
   "typescript": {
-    "name": "TypeScript", "icon": "typescript.svg"
+    "name": "TypeScript",
+    "icon": "typescript.svg"
+  },
+  "python": {
+    "name": "Python",
+    "icon": "python.svg"
   },
   "react": {
-    "name": "React", "icon": "react.svg"
+    "name": "React",
+    "icon": "react.svg"
   },
   "nodejs": {
-    "name": "Node.js", "icon": "nodejs.svg"
+    "name": "Node.js",
+    "icon": "nodejs.svg"
   },
   "express": {
-    "name": "Express", "icon": "express.svg"
+    "name": "Express",
+    "icon": "express.svg"
   },
   "docker": {
-    "name": "Docker", "icon": "docker.svg"
+    "name": "Docker",
+    "icon": "docker.svg"
   },
   "jest": {
-    "name": "Jest", "icon": "jest.svg"
+    "name": "Jest",
+    "icon": "jest.svg"
   },
   "chai": {
-    "name": "Chai", "icon": "chai.svg"
+    "name": "Chai",
+    "icon": "chai.svg"
   },
   "sinon": {
-    "name": "Sinon.JS", "icon": "sinonjs.svg"
+    "name": "Sinon.JS",
+    "icon": "sinonjs.svg"
   },
   "sequelize": {
-    "name": "Sequelize", "icon": "sequelize.svg"
+    "name": "Sequelize",
+    "icon": "sequelize.svg"
   },
   "mongoose": {
-    "name": "Mongoose", "icon": "mongoose.svg"
+    "name": "Mongoose",
+    "icon": "mongoose.svg"
   },
   "mysql": {
-    "name": "MySQL", "icon": "mysql.svg"
+    "name": "MySQL",
+    "icon": "mysql.svg"
   },
   "mongodb": {
-    "name": "MongoDB", "icon": "mongodb.svg"
+    "name": "MongoDB",
+    "icon": "mongodb.svg"
   },
   "jwt": {
-    "name": "JSON Web Token", "icon": "jsonwebtoken.svg"
+    "name": "JSON Web Token",
+    "icon": "jsonwebtoken.svg"
   },
   "testingLibrary": {
-    "name": "Testing Library", "icon": "testingLibrary.svg"
+    "name": "Testing Library",
+    "icon": "testingLibrary.svg"
   },
   "mocha": {
-    "name": "Mocha", "icon": "mocha.svg"
+    "name": "Mocha",
+    "icon": "mocha.svg"
   },
   "redux": {
-    "name": "Redux", "icon": "redux.svg"
+    "name": "Redux",
+    "icon": "redux.svg"
+  },
+  "oop": {
+    "name": "Object-Oriented Programming",
+    "icon": "",
+    "hidden": true
+  },
+  "solid": {
+    "name": "SOLID",
+    "icon": "",
+    "hidden": true
+  },
+  "flask": {
+    "name": "Flask",
+    "icon": "flask.svg"
+  },
+  "msc": {
+    "name": "Module Service Controller",
+    "icon": "",
+    "hidden": true
   },
   "html": {
-    "name": "HTML", "icon": "html.svg", "hidden": true
+    "name": "HTML",
+    "icon": "html.svg",
+    "hidden": true
   },
   "javascript": {
-    "name": "JavaScript", "icon": "javascript.svg"
+    "name": "JavaScript",
+    "icon": "javascript.svg"
   },
   "tailwind": {
-    "name": "Tailwind", "icon": "tailwind.svg", "hidden": true
+    "name": "Tailwind",
+    "icon": "tailwind.svg",
+    "hidden": true
   },
   "markdown": {
-    "name": "Markdown", "icon": "markdown.svg", "hidden": true
+    "name": "Markdown",
+    "icon": "markdown.svg",
+    "hidden": true
   }
 }

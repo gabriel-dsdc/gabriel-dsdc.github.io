@@ -6,6 +6,7 @@ import { useState } from "react";
 function Projects({ repos, reposExtras, isFetching }) {
   const [stack, setStack] = useState("");
   const [type, setType] = useState("");
+  const [showPersonal, setShowPersonal] = useState(false);
 
   const handleStack = (e) => {
     setStack(e.target.value);
@@ -13,6 +14,10 @@ function Projects({ repos, reposExtras, isFetching }) {
 
   const handleType = (e) => {
     setType(e.target.value);
+  };
+
+  const handlePersonal = (e) => {
+    setShowPersonal(e.target.checked);
   };
 
   return (
@@ -45,7 +50,7 @@ function Projects({ repos, reposExtras, isFetching }) {
         <label htmlFor="selectStack" className="sr-only">
           <TranslatedText id="selectStack" />
         </label>
-        <select id="selectStack" onChange={handleStack} value={stack}>
+        <select id="selectStack" className="mr-1" onChange={handleStack} value={stack}>
           <option defaultValue value="">
             <TranslatedText id="selectStack" />
           </option>
@@ -55,6 +60,10 @@ function Projects({ repos, reposExtras, isFetching }) {
             </option>
           ))}
         </select>
+        <label htmlFor="onlyPersonal" className="font-bold w-4 h-4 align-middle">
+          <TranslatedText id="onlyPersonal" />:&nbsp;
+          <input id="onlyPersonal" type="checkbox" onChange={handlePersonal} value={showPersonal} />
+        </label>
       </form>
       <section className="projects overflow-hidden columns-3xs sm:columns-3xs md:columns-3xs lg:columns-3xs xl:columns-2xs">
         {/* <section className="projects flex flex-wrap justify-center overflow-hidden"> */}
@@ -62,10 +71,9 @@ function Projects({ repos, reposExtras, isFetching }) {
         {reposExtras
           .reduce(
             (acc) => {
-              acc = acc.filter((repo) =>
-                stack ? repo.techs.includes(stack) : repo
-              );
-              acc = acc.filter((repo) => (type ? repo.type === type : repo));
+              acc = acc.filter((repo) => showPersonal ? repo.isPersonal : repo);
+              acc = acc.filter((repo) => stack ? repo.techs.includes(stack) : repo);
+              acc = acc.filter((repo) => type ? repo.type === type : repo);
               return acc;
             },
             [...reposExtras]

@@ -27,16 +27,18 @@ function ProjectCard({
         }}
       >
         <div className="flex justify-end">
-          <a href={previewUrl} target="_blank" rel="noreferrer">
-            <button className="bg-white text-black dark:text-white dark:bg-neutral-700 border-neutral-700 rounded-md px-4 hover:invert hover:font-extrabold dark:hover:invert-[.80]">
-              <TranslatedText id="open" /> app
-            </button>
-            {/* <img
+          {previewUrl && (
+            <a href={previewUrl} target="_blank" rel="noreferrer">
+              <button className="bg-white text-black dark:text-white dark:bg-neutral-700 border-neutral-700 rounded-md px-4 hover:invert hover:font-extrabold dark:hover:invert-[.80]">
+                <TranslatedText id="open" /> app
+              </button>
+              {/* <img
               className="h-6 w-6 text-white fill-current"
               src={OpenExternalLinkIcon}
               alt="open external link icon"
             /> */}
-          </a>
+            </a>
+          )}
           <a href={url} className="ml-4" target="_blank" rel="noreferrer">
             <button className="bg-white text-black dark:text-white dark:bg-neutral-700 border-neutral-700 rounded-md px-4 hover:invert hover:font-extrabold dark:hover:invert-[.80]">
               <TranslatedText id="open" /> repo
@@ -78,15 +80,17 @@ function ProjectCard({
                 (entry) => entry[0].toLowerCase() === techName.toLowerCase()
               );
               return (
-                <div key={name} className="flex flex-col items-center">
-                  <img
-                    className="h-9 w-9"
-                    src={require(`../images/techIcons/${icon}`)}
-                    title={name}
-                    alt={name}
-                  />
-                  <p>{name}</p>
-                </div>
+                icon && (
+                  <div key={name} className="flex flex-col items-center">
+                    <img
+                      className="h-9 w-9"
+                      src={require(`../images/techIcons/${icon}`)}
+                      title={name}
+                      alt={name}
+                    />
+                    <p>{name}</p>
+                  </div>
+                )
               );
             })}
           </div>

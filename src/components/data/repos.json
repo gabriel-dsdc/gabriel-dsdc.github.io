@@ -1,5 +1,137 @@
 [
   {
+    "id": 672985369,
+    "type": "Back-end",
+    "techs": ["python"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 672380429,
+    "type": "Back-end",
+    "techs": ["python"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 672378012,
+    "type": "Back-end",
+    "techs": ["python"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 672372441,
+    "type": "Back-end",
+    "techs": ["python", "mongodb", "docker"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 672368352,
+    "type": "Back-end",
+    "techs": ["python", "docker"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 672338469,
+    "type": "Back-end",
+    "techs": ["python", "flask", "docker"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 672308838,
+    "type": "Back-end",
+    "techs": [
+      "nodejs",
+      "express",
+      "sequelize",
+      "jwt",
+      "sinon",
+      "chai",
+      "oop",
+      "solid",
+      "msc",
+      "react",
+      "jest",
+      "testingLibrary"
+    ],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 628507164,
+    "type": "Back-end",
+    "techs": [
+      "nodejs",
+      "express",
+      "typescript",
+      "mongoose",
+      "sinon",
+      "chai",
+      "oop",
+      "solid",
+      "msc",
+      "docker"
+    ],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 625793828,
+    "type": "Back-end",
+    "techs": [
+      "nodejs",
+      "express",
+      "typescript",
+      "sequelize",
+      "chai",
+      "oop",
+      "solid",
+      "msc",
+      "docker"
+    ],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 625762738,
+    "type": "Back-end",
+    "techs": ["nodejs", "typescript", "oop", "solid", "docker"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 625726600,
+    "type": "Back-end",
+    "techs": ["nodejs", "express", "typescript", "jwt", "msc", "docker"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 625709422,
+    "type": "Back-end",
+    "techs": ["nodejs", "express", "sequelize", "jwt", "msc", "docker"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 625692061,
+    "type": "Back-end",
+    "techs": ["nodejs", "express", "sinon", "chai", "msc", "docker"],
+    "previewImg": "",
+    "previewUrl": ""
+  },
+  {
+    "id": 625685983,
+    "type": "Back-end",
+    "techs": ["nodejs", "express", "docker"],
+    "previewImg": "images/previews/talker-manager.jpg",
+    "previewUrl": "https://talker-manager.vercel.app/docs/"
+  },
+  {
     "id": 588370837,
     "type": "Front-end",
     "techs": ["react", "testingLibrary", "jest"],
