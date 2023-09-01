@@ -19,7 +19,7 @@ function ProjectCard({
           previewImg && "pj-card-img-size"
         } pt-4 pr-4`}
         style={{
-          backgroundImage: `url(${
+          backgroundImage: previewImg && `url(${
             previewImg.includes("://")
               ? previewImg
               : require(`../${previewImg}`)
